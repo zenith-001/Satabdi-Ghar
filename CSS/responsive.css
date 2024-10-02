@@ -1,0 +1,150 @@
+/*The carousel (not to be edited at any cost)*/
+@media (max-width: 1150px) {
+  .about .team-info .wrapper .carousel {
+    grid-auto-columns: calc((100% / 2) - 9px) !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .about .team-info .wrapper .carousel {
+    grid-auto-columns: 100% !important;
+  }
+}
+@media (max-width: 1145px) {
+  .about .team-info{
+    width: 90%;
+  }
+}
+@media (max-width: 600px) {
+  .about .team-info{
+    width: 80%;
+  }
+}
+
+
+/* navbar */
+@media screen and (min-width: 950px) {
+  .home .nav .rightNav p {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 950px) {
+    .home .nav .rightNav a {
+      display: none !important;
+    }
+    .home .nav .rightNav p  {
+      display: block !important;
+      color: #fff !important;
+    }
+  }
+  /* home */
+  @media screen and (max-width: 1350px) {
+    .home .homeContent .title{
+      font-size: 4.5rem !important;
+      margin-top: -10px !important;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .home .homeContent .title{
+      font-size: 4rem !important;
+    }
+  }
+  @media screen and (max-width: 470px) {
+    .home .homeContent .title{
+      font-size: 3rem !important;
+    }
+    .home .homeContent .description{
+      width: 95% !important;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    .home .homeContent .title{
+      font-size: 2.5rem !important;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    .home .homeContent{
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    .home .homeContent .title{
+      font-size: 2.2rem !important;
+    }
+    .home .homeContent .description{
+      width: 100% !important;
+font-size: 12px;
+
+    }
+  }
+
+  /* IDK i'm confused so i think i am working on contact */
+  @media screen and (max-width:1000px) {
+    .contact-flex {
+      display: flex;
+      flex-direction: column !important;
+      align-items: center; 
+      margin-left: 1%;
+      margin-right: 2%;
+    }
+  }
+  @media screen and (max-width:600px) {
+    .contact-info{
+      flex: 0;
+      padding-left: 5%;
+    }
+  }
+  @media screen and (max-width:500px) {
+    .contact-info{
+      flex: 0;
+      width: 100% !important;
+      margin-left: -25% !important;
+    }
+    .contact-info .Contitle p{
+      font-size: 30px !important;
+    }
+    .contact-info .card{
+      width: 100% !important;
+    }
+    .contact-flex .card .link {
+      display: none;
+    }
+  }
+  @media screen and (max-width:580px) {
+    .contact-info .Contitle p{
+      font-size: 35px;
+    }
+    .contact-info{
+      margin-left: 4.5% !important;
+    }
+  }
+  @media screen and (max-width:540px) {
+    .contact-info{
+      margin-left: 2% !important;
+    }
+    .contact-info .card{
+      width: 80%;
+    }
+  }
+
+
+  /* latest media */
+  @media screen and (max-width:720px) {
+    .latest .latest-main{
+      flex-direction: column  !important;
+      justify-content: center !important;
+    }
+    .latest .latest-main .blog{
+      width: 90% !important;
+      margin-left: 5% !important;
+      margin-right: 5% !important;
+    }
+    .latest .latest-main .event{
+      width: 90% !important;
+      margin-left: 5% !important;
+      margin-right: 5% !important;
+    }
+  }
+  /* body */
+  body {
+    overflow-x: hidden;
+}

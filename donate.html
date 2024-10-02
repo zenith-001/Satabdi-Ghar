@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./CSS/sidenav.css">
+    <link rel="stylesheet" href="./CSS/donate.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kushma Art Project | Donate</title>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css" />
+  
+</head>
+<body>
+  <div class="myflex">
+    <div class="sideNav">
+        <div class="upper">
+            <img src="./images/kap.webp" class="logo">
+        </div>
+        <div class="lower">
+            <div class="icons ">
+            <i class="fa-solid fa-home"></i>
+                <p class="itemName">Home</p>
+    
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-id-card"></i>
+                <p class="itemName">About</p>
+            </div>
+            <div class="icons  active">
+                <i class="fa-solid fa-dollar-circle"></i>
+                <p class="itemName">Donate</p>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-calendar-days"></i>
+                <p class="itemName">Events</p>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-table"></i>
+                <p class="itemName">Blog</p>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-phone"></i>
+                <p class="itemName">Contact</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="rightWindow">
+       <center>
+        <p class="pgtitle">
+            Donate Us
+        </p>
+    
+        <p class="dondes">
+          Support Us Donating 
+        </p>
+       </center>
+       <br><br>
+
+       <center>
+        <div class="card">
+            
+                <img class="qr" src="./images/qr.webp" alt="">
+        
+    
+            <div class="content">
+                <p class="upper">We are working hard to keep up with the project.</p>
+               <br>
+            
+                <button class="esewa">
+                    <img src="./images/Social icons/esewa.webp" alt="">
+                </button>
+                <button class="button imepay">
+                    <img class="img" src="./images/Social icons/imepay.webp" alt="">
+                </button>
+                <button class="button imepay">
+                    <img class="img" src="./images/Social icons/fonepay.webp" alt="">
+                </button>
+                <button class="gofundme">
+                    <img class="img" src="./images/Social icons/gofundme.webp" alt="">
+                </button>
+                <br><br>
+
+                <p class="cusdes">
+                    Please use the following details to perform bank transfer. <br>
+                    <i class="fa-solid fa-user"></i> &nbsp; Account holder: RK Adipta Giri <br>
+                    <i class="fa-solid fa-bank"></i> &nbsp; Bank: Kumari Bank <br>
+                    <i class="fa-solid fa-id-card"></i> &nbsp; ID: 80380240000 <br>
+                </p>
+            </div>
+           </div>
+       </center>
+<br><br>
+<center>
+    <p class="pgtitle">
+        Donate Items
+    </p>
+</center><br><br>
+<center>
+    <div class="donform">
+        <input type="text" name="" class="inps" placeholder="Name">
+        <input type="text" name="" class="inps" placeholder="Item's name">
+        <input type="number" name="" class="inps" placeholder="Phone number">
+        <input type="file" id="real-file" hidden="hidden" />
+        <button type="button" id="custom-button"><i class="fa-solid fa-cloud-upload"></i>&nbsp;  IMAGE OF ITEM</button>
+        <span id="custom-text">No file chosen, yet.</span>
+        <br>
+        <input type="text" name="" placeholder="Contact info" class="inps">
+        <input type="text" name="" placeholder="Share your thoughts..." class="inps">
+
+        <button type="submit">Submit</button>
+    </div>
+</center>
+<br><br><br>
+
+
+      </div>
+    </div>
+  </div>
+
+<script>
+    document.getElementById("file-upload").addEventListener("change", function() {
+    var fileName = this.files[0].name;
+    document.getElementById("file-name").textContent = "Selected file: " + fileName;
+});
+
+</script>
+</body>
+</html>

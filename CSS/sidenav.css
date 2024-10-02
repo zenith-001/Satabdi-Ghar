@@ -1,0 +1,122 @@
+.active{
+    background-color:#2066f33f;
+    color: #fff !important;
+    border-radius: 20px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+    /* padding-top: 35px; */
+}
+.myflex{
+    display: flex;
+    flex-direction: row;
+}
+.sideNav{
+    height: 100vh;
+    width:80px;
+    background-color:#fff;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    overflow: hidden;
+    transition: all 250ms ease;
+    /* padding-right: 50px; */
+    
+}
+.sideNav:hover {
+    width: 180px;
+    transition: 150ms all ease-in;
+}
+.sideNav .upper{
+    display: flex;
+    justify-content: center;
+    margin-top:15px;
+}
+.sideNav .upper .logo{
+    width: 80%;
+    transition: all 180ms ease-in-out;
+}
+.sideNav .lower{
+    gap:10px;
+    display: flex;
+    flex-direction: column;
+}
+.sideNav .lower .icons{
+    width: 100%;
+    height: 70px;
+    /* background-color: blue; */
+    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 500ms all;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sideNav .lower .icons:hover{
+    width: 100%;
+    background-color: #6b9af894;
+}
+.sideNav:hover .upper .logo {
+    width: 65%;
+    transition: all 250ms ease-in-out;
+}
+
+.icons .itemName{
+    position: relative;
+    left: -100vw;
+    color: #454545;
+    font-family:"arial black";
+    margin-top:20px;
+    transition: 150ms all;
+}
+.sideNav:hover .itemName{
+    left: -30px;
+    transition: 150ms all;
+}
+.sideNav .lower .icons i{
+    font-size: 22px;
+    color: #454545;
+    margin-top:20px;
+    margin-left: 40%;
+    /* margin-right: 100%; */
+}
+.sideNav:hover i {
+    transition: 350ms all ;
+    transform: translateX(-200%); 
+}
+.rightWindow{
+    /* padding-left: 50px; */
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.pgtitle{
+    font-family: "Poppins",sans-serif;
+    color: #555;
+    font-weight: bold;
+    margin-top: 25px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+@media (width<590px){
+    .sideNav:hover{
+        width: 80px;
+    }
+    .sideNav:hover .itemName{
+        left: -100vw;
+    }
+    .sideNav:hover i{
+        transform: translateX(0);
+    }
+}

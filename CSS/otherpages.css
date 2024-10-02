@@ -1,0 +1,89 @@
+
+@import url("https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700,700i,800,800i&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Courgette&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+.otherpgnav{
+    background-color: #000000d7 !important;
+}
+.home{
+    background-image: url(../images/photo.webp) !important;
+}
+.home .welcome{
+    color: #fff;
+    font-family: "rajdhani";
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 15vh;
+    letter-spacing: 8px;
+    font-weight: bolder;
+    transform: perspective(500px) rotateX(30deg);
+    
+}
+.home .otpgttl{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 1.1;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    text-align: center;
+    text-shadow:-2px -2px 0 cyan, 2px 2px 0 magenta;
+}
+.Contitle p:before{
+    width:8% !important;
+    transform: translateX(-15%);
+    position: absolute;
+    /* margin-left: -10px; */
+}
+
+
+.grid-container {
+    display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 5px;
+    margin: 20px;
+}
+
+.card {
+    border: .5px solid #454545;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 2px;
+
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    padding: 2px;
+    background-color: #ffffff;
+}
+
+.card p {
+    margin: 10px 0;
+    font-family: "poppins";
+}
+
+#missions{
+    margin: 20px;
+}
+#missions .dvttl{
+    font-family: "Poppins";
+    font-size: 22px;
+}
+#misisons .content .description{
+    font-family: "Poppins" !important;
+    font-size: 28px !important;
+}
+#missions .content{
+    width: 90%;
+}

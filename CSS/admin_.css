@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reddit+Mono:wght@200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Scribble&display=swap');
+.desc{
+    font-family: poppins;
+    color: #b1ccfc;
+    margin-left: 25px;
+}
+
+table{
+    /* background: white; */
+    
+    border-radius: 50px;
+}
+
+table th{
+    background: #b1ccfc;
+    padding: 10px;
+    font-family: poppins;
+    font-weight: bold;
+}
+
+
+table td{
+    background-color: white;
+    padding: 15px;
+    max-width: 200px;
+    word-wrap:break-word;
+    overflow: hidden;
+    font-family: poppins;
+    white-space: nowrap;
+}
+
+table button{
+    color: white;
+    font-family: poppins;
+    border-radius: 10px;
+    padding: 8px;
+    border: 0;
+    cursor: pointer;
+}
+
+
+.show{
+    background: #3c4f7b;
+    transition: .3s;
+}
+
+.show:hover{
+    background: #5d74a9;
+
+}
+.del{
+    background: rgb(226, 57, 57);
+    transition: .3s;
+}
+
+.del:hover{
+    background: rgb(218, 101, 101);
+}

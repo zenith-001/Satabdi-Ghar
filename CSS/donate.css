@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+*{
+    margin:0;
+    padding: 0;
+}
+.top{
+    width: 90%;
+    margin-top:15px;
+}
+.dontitle{
+    font-family: "Raleway";
+    font-size:25px;
+    font-weight: bold;
+    color: #8cb4ff;
+}
+.dondes{
+    font-family: "poppins";
+    font-size: 14px;
+    color: #3586fb;
+    line-height: 20px;
+}
+.donform{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 75%;
+}
+.donform .inps{
+  font-family: "poppins";
+  padding-left: 15px;
+  height: 45px;
+}
+.donform button{
+  padding: 10px;
+  color: white;
+  background-color: #3586fb;
+  border:  none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "poppins";
+}
+.donform button:hover {
+  background-color: #00b28f;
+}
+#custom-button {
+  padding: 10px;
+  color: white;
+  background-color: #3586fb;
+  border:  none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#custom-button:hover {
+  background-color: #00b28f;
+}
+
+#custom-text {
+  margin-left: 10px;
+  font-family: sans-serif;
+  color: #aaa;
+}
+
+
+
+
+.footer {
+    height: 50px;
+    width: 100%;
+    position: relative; /* Change position to fixed */
+    bottom: 0px;
+    left: 0px;
+    background-color: #000;
+    z-index: 999;
+    margin-top: 50px;
+  }
+  .footer p {
+    color: #fff;
+    text-align: center;
+    font-family: "poppins";
+    text-transform: capitalize;
+    padding-top: 10px;
+  }
+  
+
+  .card {
+    align-items: stretch;
+    display: flex;
+    width: 95%;
+    height: 300px;
+    max-height: fit-content;
+    min-height: fit-content;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    overflow: hidden; /* Ensure that any content exceeding the div's boundaries is hidden */
+}
+
+.card .qr {
+    flex-grow: 1;
+    object-fit: contain;
+    width: auto;
+    height: 100%;
+}
+
+.card .content {
+    width: 75%;
+    text-align: left;
+    padding: 7px;
+    padding-left: 15px;
+    flex-shrink: 1;
+}
+  .card .content .upper{
+    font-size: 24px;
+    font-family: "poppins";
+    font-weight: bold;
+    color: #7bb2ff;
+}
+.card .content .lower{
+      color: #555;
+    font-size: 15px;
+    font-family: arial;
+    font-weight: bold;
+    margin-top: 5px;
+    /* text-transform: uppercase; */
+  }
+  .card .content .cusdes{
+    color: #252525;
+    font-size: 15px;
+    font-family: "poppins";
+    /* font-weight: bold; */
+    margin-top: 5px;
+  }
+  .card .content .mybtns{
+    margin: 5px;
+  }
+  .card .content .donitems{
+    height: 40px;
+    width: 100px;
+    border: none;
+  }
+.card .content .button{
+    border: none;
+    padding: 8px;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    margin-left: 5%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.card .content .diffbutton{
+  border: none;
+  padding: 8px;
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+  margin-left: 5%;
+  background-color:#02a95c;
+  border-radius: 10px;
+  font-family: "poppins";
+  font-weight: bold;
+  color: #fff;
+  font-size: 15px;
+  margin-top: -100px;
+  transform: translateY(-15px);
+  transition: all 150ms;
+}
+.card .content .diffbutton:hover{
+  width:170px;
+  transition: all 150ms;
+}
+.card .content .button:hover{
+    transform: scale(1.05);
+    transition: all 250ms;
+}
+.card .content button .img{
+    height: 40px;
+    width: 130px;
+}
+.esewa{
+    background-color: #1c252e;
+    border: none;
+    padding: 8px;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.esewa img{
+    height: 32px;
+}
+.esewa:hover{
+    transform: scale(1.05);
+    transition: all 250ms;
+}
+.gofundme{
+  background-color: #02a95c !important;
+  border: none;
+  padding: 8px;
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+  margin-left: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.gofundme img{
+  height: 60px;
+  object-fit: contain;
+}
+
+/* idk why is it so unmanaged but now ig its responsive css */
+@media (width<1145px){
+  .card{
+    height: 450px;
+  }
+  .qr{
+    height: 90%;
+  }
+}
+@media (width<990px){
+  .card{
+    flex-direction: column;
+    height: fit-content;
+  }
+  .qr{
+display: none;
+  }
+  .content{
+    width: 95% !important;
+  }
+}
+@media (width<600px) {
+  .qr{
+    display: none;
+  }
+  .card .content{
+    width: 90%;
+    flex-grow: 1;
+  }
+  .card{
+    width: 90%;
+  }
+}
+
+@media (width<600px){
+  .donform{
+    width: 90%;
+  }
+}
