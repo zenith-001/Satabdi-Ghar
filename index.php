@@ -83,7 +83,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                 <p class="Ptitle">What's our mission?</p>
             </div><br>
             <p class="description">
-                7). Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia reiciendis dignissimos, ab commodi
+                8). Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia reiciendis dignissimos, ab commodi
                 nulla nesciunt magni quas sed vitae ducimus hic est eos necessitatibus aliquid. Cumque totam nihil
                 officia eius.
                 <br> <br>
