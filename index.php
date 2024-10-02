@@ -53,10 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             </p>
             <br />
             <p class="description">
-                With an intention to connect the cultural diversity of the society
-                among the mass, Shatabdi Ghar has been conceived with the aim of
-                preserving art and culture through the participation of the community.
-                We are doing various project for the creative development of Kushma.
+                Kushma Art Project is a small organization started by Ramesh Adhikari from Kushma, Nepal. This organization aims to preserve the cultural traditions reflecting the rich Nepali history. We ought to help the society by protecting and promoting the cultural believes as well as the traditions followed by our ancestors. Alongside the traditions, we also support the young minds and help them in making their as well as the society's future bright. We initiate various development projects as well as campaings.
             </p>
             <br>
             <a href="donate.html">
