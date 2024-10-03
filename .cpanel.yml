@@ -1,3 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/kushmaar/public_html
+    - /bin/cp -a * $DEPLOYPATH
 on: push
 name: Deploy Website on push
 jobs:
@@ -8,9 +13,4 @@ jobs:
     - name: Get latest code
       uses: actions/checkout@v2
 
-    - name: sync files
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-      with: 
-        server: ftp.kushmaartproject.com.np
-        username: kushmaar
-        password: ${{ 8038@Zenith }}
+    - name: sync
