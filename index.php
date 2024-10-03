@@ -80,7 +80,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             </p>
 
             <div class="Contitle">
-                <p class="Ptitle">What's our submittsion?</p>
+                <p class="Ptitle">What's our sub misttion?</p>
             </div><br>
             <p class="description">
                 1040). Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia reiciendis dignissimos, ab commodi
