@@ -3,14 +3,3 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/kushmaar/public_html
     - /bin/cp -a * $DEPLOYPATH
-# on: push
-# name: Deploy Website on push
-# jobs:
-#   web-deploy:
-#     name: Deploy
-#     runs-on: ubuntu-latest
-#     steps:
-#     - name: Get latest code
-#       uses: actions/checkout@v2
-
-#     - name: sync
