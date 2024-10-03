@@ -86,10 +86,10 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                 1040). Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia reiciendis dignissimos, ab commodi
                 nulla nesciunt magni quas sed vitae ducimus hic est eos necessitatibus aliquid. Cumque totam nihil
                 officia eius.
-                <br> <br>
+                <br> <br> 
                 6060). Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic assumenda architecto, ipsa porro sed
                 iusto necessitatibus blanditiis. Nulla tempora ut, in quis eveniet unde, aliquid nostrum porro omnis
-                consequuntur optiob
+                consequuntur optiobaa;
             </p>
         </div>
 
