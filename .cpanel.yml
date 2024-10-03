@@ -1,28 +1,11 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/kushmaar/public_html/
+    - export DEPLOYPATH=/home/your-username/public_html/
     - /bin/cp -R .vscode $DEPLOYPATH
-    - /bin/cp -R .well-known $DEPLOYPATH
-    - /bin/cp -R admin $DEPLOYPATH
-    - /bin/cp -R CSS $DEPLOYPATH
-    - /bin/cp -R db_images $DEPLOYPATH
-    - /bin/cp -R images $DEPLOYPATH
-    - /bin/cp -R JS $DEPLOYPATH
-    - /bin/cp -R .htaccess $DEPLOYPATH
-    /bin/cp .htaccess $DEPLOYPATH
-    /bin/cp about.html $DEPLOYPATH
-    /bin/cp about.php $DEPLOYPATH
-    /bin/cp album.php $DEPLOYPATH
-    /bin/cp blog.php $DEPLOYPATH
-    /bin/cp donate.html $DEPLOYPATH
-    /bin/cp donate.php $DEPLOYPATH
-    /bin/cp doners.html $DEPLOYPATH
-    /bin/cp doners.php $DEPLOYPATH
-    /bin/cp error_log $DEPLOYPATH
-    /bin/cp event.php $DEPLOYPATH
-    /bin/cp events.php $DEPLOYPATH
-    /bin/cp gallery.php $DEPLOYPATH
-    /bin/cp googled610fff1837acdfc.html $DEPLOYPATH
-    /bin/cp index.php $DEPLOYPATH
-    /bin/cp post.php $DEPLOYPATH    
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R fonts $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    /bin/cp index.html $DEPLOYPATH
