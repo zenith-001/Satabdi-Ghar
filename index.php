@@ -80,16 +80,12 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             </p>
 
             <div class="Contitle">
-                <p class="Ptitle">What's our sub misttionssss?</p>
+                <p class="Ptitle">What do we aim?</p>
             </div><br>
             <p class="description">
-                1040). Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia reiciendis dignissimos, ab commodi
-                nulla nesciunt magni quas sed vitae ducimus hic est eos necessitatibus aliquid. Cumque totam nihil
-                officia eius.
+                • We aim to preserve the traditional culture of Nepal and our local Nepali society by conserving the archaeolgical factors of our rich culutre.
                 <br> <br> 
-                6060). Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic assumenda architecto, ipsa porro sed
-                iusto necessitatibus blanditiis. Nulla tempora ut, in quis eveniet unde, aliquid nostrum porro omnis
-                consequuntur optiobaa; new commit
+                • Along with the conservation of the culture we aim to support the youth generation by promoting them in conducting various extra curicular activities to foster the growth in a wide range of topics.
             </p>
         </div>
 
