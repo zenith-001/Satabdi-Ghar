@@ -248,7 +248,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             </div><br>
             <div class="medias">
                 <div class="card">
-                    <img src="./images/facebook.webp" alt="">
+                    <img src="./images/facebook.webp" onclick="window.open('https://www.facebook.com/profile.php?id=100069483765154')" alt="">
                     <p class="name">Facebook</p>
                     <span class="link">- Kushma Art Project - कुश्मा कला परियोजना </span>
                 </div>
