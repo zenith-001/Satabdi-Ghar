@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
     <title>Kushma Art Project</title>
 </head>
 
@@ -252,28 +252,17 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                     <p class="name">Facebook</p>
                     <span class="link">- Kushma Art Project - कुश्मा कला परियोजना </span>
                 </div>
-                <div class="card" onclick="window.open('https://www.youtube.com/watch?v=fEd1Yx0jf6E')">
+                <div class="card" onclick="window.open('https://www.youtube.com/watch?v=6TDrMjo7mh8')">
                     <img src="./images/youtube.webp" alt="">
                     <p class="name">Youtube</p>
                     <span class="link">- Satabdi Ghar</span>
-                </div>
-                <div class="card">
-                    <img src="./images/instagram.webp" alt="">
-                    <p class="name">Instagram</p>
-                    <span class="link">- Satapdhi Ghar</span>
                 </div>
                 <br>
                 <p class="subtitle">More contact information:</p>
                 <p class="description"><br>
                     <i class="fa-solid fa-phone"></i> Phone: +977 9847620763 <br><br>
                     <i class="fa-solid fa-envelope"></i> Email: info@kushmaartproject.com.np<br><br>
-                    <i class="fa-solid fa-location-dot"></i> Address: Kushma, Nepal <br><br>
-                    
-                </p>
-
-                <p class="description">
-                    <a style="color:#252525; font-weight: bolder;" href=""><i class="fa-solid fa-eye"></i>
-                        View more</a>
+                    <span style="cursor:pointer;" onclick="window.open('https://maps.app.goo.gl/x3RmeJqL9Wt67im97')"><i class="fa-solid fa-location-dot"></i> Address: Majh Gau, Kushma, Parbat</span> <br><br>
                 </p>
 
             </div>
