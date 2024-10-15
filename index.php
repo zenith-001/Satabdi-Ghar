@@ -252,10 +252,10 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                     <p class="name">Facebook</p>
                     <span class="link">- Kushma Art Project - कुश्मा कला परियोजना </span>
                 </div>
-                <div class="card">
+                <div class="card" onclick="window.open('https://www.youtube.com/watch?v=fEd1Yx0jf6E')">
                     <img src="./images/youtube.webp" alt="">
                     <p class="name">Youtube</p>
-                    <span class="link">- Satapdhi Ghar</span>
+                    <span class="link">- Satabdi Ghar</span>
                 </div>
                 <div class="card">
                     <img src="./images/instagram.webp" alt="">
