@@ -80,7 +80,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             </p>
 
             <div class="Contitle">
-                <p class="Ptitle">What do we aim 3?</p>
+                <p class="Ptitle">What do we aim 4?</p>
             </div><br>
             <p class="description">
                 • We aim to preserve the traditional culture of Nepal and our local Nepali society by conserving the archaeolgical factors of our rich culutre.
