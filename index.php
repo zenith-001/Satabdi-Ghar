@@ -265,9 +265,10 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                 <br>
                 <p class="subtitle">More contact information:</p>
                 <p class="description"><br>
-                    <i class="fa-solid fa-phone"></i> Phone: +977 988038038 <br><br>
-                    <i class="fa-solid fa-envelope"></i> Email: aaradhyapubg@gmail.com <br><br>
+                    <i class="fa-solid fa-phone"></i> Phone: +977 9847620763 <br><br>
+                    <i class="fa-solid fa-envelope"></i> Email: info@kushmaartproject.com.np<br><br>
                     <i class="fa-solid fa-location-dot"></i> Address: Kushma, Nepal <br><br>
+                    
                 </p>
 
                 <p class="description">
