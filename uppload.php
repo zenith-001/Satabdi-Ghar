@@ -18,9 +18,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     // Loop through each file uploaded
     foreach ($_FILES['files']['tmp_name'] as $key => $tmpName) {
+        // Get the original file name
         $fileName = $_FILES['files']['name'][$key];
-        // Add the file to the zip archive
-        $zip->addFile($tmpName, $fileName);
+
+        // Get the path of the uploaded file
+        $relativePath = $fileName;
+
+        // Add the file to the zip archive while preserving the directory structure
+        if (is_uploaded_file($tmpName)) {
+            $zip->addFile($tmpName, $relativePath);
+        }
     }
 
     // Close the zip archive
