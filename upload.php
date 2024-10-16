@@ -6,7 +6,7 @@
     <title>File Upload</title>
 </head>
 <body>
-    <h2>Upload a File Divyam</h2>
+    <h2>Upload a File Divyam once more</h2>
     <form action="uppload.php" method="post" enctype="multipart/form-data">
         <input type="file" name="fileToUpload" id="fileToUpload" required>
         <br><br>
